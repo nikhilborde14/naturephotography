@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+ text-align: center;
+   
+}
+#gallery h1{
+padding: 20px;
+font-family: sans-serif;
+}
+form{
+    display: inline-block;
+    width: 50%;
+border: solid red 2px;
+padding: 10px;
+margin-top: 5%;}
+.About{
+  padding: 20px;
+  margin: 5%;
+}
+.About h1{
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.About h2{
+    font-family: cursive;
+}
+.About p{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    text-align:justify;
+}
+.About img
+{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+/*gallery*/
+#gallery{
+    padding:20px;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*Contact Us*/
+  #contact h2{
+    text-align: center;
+  }
